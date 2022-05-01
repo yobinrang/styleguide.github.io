@@ -1,0 +1,130 @@
+html {
+    font-family: Helvetica, serif;
+}
+
+body {
+    background-color: snow;
+}
+
+.container {
+    display: block;
+}
+
+.container_color {
+    display: inline-blok;
+    border: 1px solid black;
+    float: left;
+    width: 33%;
+    margin-right: 2%;
+}
+
+.container_color p {
+    color: rgb(75, 27, 27);
+}
+
+.container_fonts {
+    display: inline-block;
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+}
+
+.container_styles {
+    display: inline-block;
+    border: 1px solid black;
+    width: 33%;
+    float: right;
+}
+
+.colorpanel-lime {
+    display: block;
+    margin: 0px 80px;
+    padding: 15px;
+    background-color: lime;
+}
+
+.colorpanel-cyan {
+    display: block;
+    margin: 30px 80px;
+    padding: 15px;
+    background-color: cyan;
+}
+
+.colorpanel-aquamarine {
+    display: block;
+    margin: 0px 80px;
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+.colorpanel-crimson {
+    display: block;
+    margin: 30px 80px;
+    padding: 15px;
+    background-color: crimson;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    display: block;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Roboto Mono';
+}
+
+h5 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.roboto_bold {
+    font-weight: bold;
+}
+
+.fonts_title {
+    text-align: center;
+    margin: 30px 30px 15px;
+    overflow: hidden;
+}
+
+.fonts-roboto_mono {
+    font-family: 'Roboto Mono';
+}
+
+.fonts-helvetica p {
+    font-family: Helvetica;
+}
+
+.fonts-times p{
+    font-family: Times;
+}
+
+#h3_no {
+    text-decoration: none;
+}
+
+li {
+    font-family: 'Roboto Mono';
+    font-size: small;
+    list-style: none;
+    text-align: center;
+}
+
+.h1_heading {
+    margin: 30px 0;
+}
+
+.h3_subheading {
+    margin-bottom: 30px;
+}
+
